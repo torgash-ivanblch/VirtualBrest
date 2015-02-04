@@ -14,8 +14,8 @@
         android:icon="@drawable/ic_loop_white_36dp"
         android:title="@string/action_refresh"/>
     <!--<item-->
-        <!--android:id="@+id/action_settings"-->
-        <!--android:orderInCategory="100"-->
-        <!--app:showAsAction="never"-->
-        <!--android:title="@string/action_settings"/>-->
-</menu> 
+    <!--android:id="@+id/action_settings"-->
+    <!--android:orderInCategory="100"-->
+    <!--app:showAsAction="never"-->
+    <!--android:title="@string/action_settings"/>-->
+</menu>
