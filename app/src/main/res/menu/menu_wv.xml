@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="im.point.torgash.virtualbrest.VirtualBrestRssFragment" >
+
+    <item
+        android:id="@+id/action_wv_size"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_format_size_white_36dp"
+        android:title="Размер текста"/>
+    <item
+        android:id="@+id/action_wv_refresh"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_loop_white_36dp"
+        android:title="@string/action_refresh"/>
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--app:showAsAction="never"-->
+        <!--android:title="@string/action_settings"/>-->
+
+</menu> 
