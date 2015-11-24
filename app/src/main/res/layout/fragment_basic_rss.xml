@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="im.point.torgash.virtualbrest.VBWebViewFragment"
+    android:padding="8dp"
+    android:background="@color/darkblue"
+    android:animateLayoutChanges="true">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/refreshlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".BasicRssFragment"
+    android:background="@color/darkblue"
+    android:animateLayoutChanges="true">
+
+    <ListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/lvRSS"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+<com.getbase.floatingactionbutton.FloatingActionButton
+android:id="@+id/scrollButton"
+android:layout_width="48dp"
+android:layout_height="48dp"
+android:layout_gravity="right|bottom"
+fab:fab_icon="@drawable/ic_keyboard_arrow_up_white_36dp"
+
+fab:fab_colorNormal="#AA999999"
+fab:fab_colorPressed="#AA555555"
+    />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right|center_vertical"></FrameLayout>
+    <include android:id="@+id/empty_view"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:layout_weight="1"
+        layout="@layout/progress_wheel2"
+        />
+</FrameLayout>
+

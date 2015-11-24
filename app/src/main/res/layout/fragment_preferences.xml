@@ -1,0 +1,99 @@
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+    android:background="#DCDCDC"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Общие"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:background="#CCCCCC" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Не загружать изображения\n(экономить трафик)"
+        android:id="@+id/cbDontLoadImages"
+        android:lines="3"
+        android:textSize="18dp" />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#AACCCCCC"
+        android:id="@+id/update_freq_picker">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/imageView3"
+            android:src="@drawable/ic_access_alarm_black_24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Расписание фонового обновления"
+            android:id="@+id/textView4"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_toLeftOf="@+id/imageView4"
+            android:layout_toStartOf="@+id/imageView4"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="48dp"
+            android:id="@+id/imageView4"
+            android:src="@drawable/ic_angle_right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/tvFrequency"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4" />
+
+    </RelativeLayout>
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="RSS-ленты"-->
+        <!--android:id="@+id/textView2"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="24sp"-->
+        <!--android:background="#CCCCCC" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Изменить порядок списка"-->
+        <!--android:id="@+id/textView3"-->
+        <!--android:lines="3"-->
+        <!--android:gravity="center_vertical" />-->
+</LinearLayout>

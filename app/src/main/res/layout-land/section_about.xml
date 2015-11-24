@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvTextWithEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:text="Если вы хотите добавить свой сайт в список, свяжитесь с автором по указанному выше e-mail"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom" />
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/logo_512_512"
+                    android:layout_alignParentLeft="true" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/imageView"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:id="@+id/linearLayout">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        android:text="xBREST"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Все новости Бреста\nв твоем телефоне"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:id="@+id/tvTextWithLinks"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="10dp"
+                        android:autoLink="web|email"
+                        android:linksClickable="true"
+                        android:text="Ver. 0.9.1  Автор: xbrest.by \nЗамечания, вопросы, предложения:\ninfo@xbrest.by"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+
+
+
+
+</FrameLayout>

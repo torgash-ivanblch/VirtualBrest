@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="news_icons">
+        <item>@drawable/virtualbrest_vz</item>
+        <item>@drawable/tut_by</item>
+        <item>@drawable/vb_by</item>
+        <item>@drawable/brestskaya_gazeta</item>
+        <item>@drawable/litary</item>
+        <item>@drawable/typical_brest</item>
+        <item>@drawable/online_news</item>
+        <item>@drawable/brest_courier</item>
+    </string-array>
+</resources>

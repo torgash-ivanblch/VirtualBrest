@@ -5,17 +5,37 @@
 
     <item
         android:id="@+id/action_wv_size"
-        app:showAsAction="ifRoom"
-        android:icon="@drawable/ic_format_size_white_36dp"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_format_size_black_36dp"
         android:title="Размер текста"/>
     <item
         android:id="@+id/action_wv_refresh"
-        app:showAsAction="ifRoom"
-        android:icon="@drawable/ic_loop_white_36dp"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_loop_black_36dp"
         android:title="@string/action_refresh"/>
     <!--<item-->
     <!--android:id="@+id/action_settings"-->
     <!--android:orderInCategory="100"-->
     <!--app:showAsAction="never"-->
     <!--android:title="@string/action_settings"/>-->
+    <item android:id="@+id/setting_webview_singlecolumn"
+        android:title="В одну колонку"
+        app:showAsAction="never"
+        android:checkable="true"/>
+    <item android:id="@+id/webview_share"
+        android:icon="@drawable/ic_share_black_36dp"
+        android:title="Поделиться..."
+        app:showAsAction="always"
+
+        />
+    <item android:id="@+id/webview_tobrowser"
+        android:icon="@drawable/ic_open_in_browser_black_36dp"
+        android:title="Открыть в браузере"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/webview_copylink"
+        android:icon="@drawable/ic_content_copy_black_36dp"
+        android:title="Копировать ссылку"
+        app:showAsAction="ifRoom"
+        />
 </menu>
